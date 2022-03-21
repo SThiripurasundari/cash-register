@@ -17,7 +17,7 @@ public class CashRegisterTest {
 
         cashRegister.process(purchase);
 
-        assertTrue(fakePrinter.isPrintMethodCalled);
+        assertTrue(fakePrinter.isPrintMethodCalled());
     }
 
     @Test
@@ -28,6 +28,6 @@ public class CashRegisterTest {
 
         cashRegister.process(fakePurchase);
 
-        assertEquals(fakePurchase.asString(), fakePrinter.processAsString);
+        assertEquals(fakePurchase.asString(), fakePrinter.getProcessAsString());
     }
 }
