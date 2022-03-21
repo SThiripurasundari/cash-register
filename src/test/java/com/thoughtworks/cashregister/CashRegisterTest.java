@@ -1,4 +1,4 @@
-package com.example.mocks;
+package com.thoughtworks.cashregister;
 
 import org.junit.Test;
 

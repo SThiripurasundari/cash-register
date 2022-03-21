@@ -1,4 +1,4 @@
-package com.example.mocks;
+package com.thoughtworks.cashregister;
 
 public class Printer {
     public void print(String content){
